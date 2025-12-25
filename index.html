@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Captain's Unique Snowflake Generator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Captain's Christmas Snowflake Generator</h1>
+    <p>
+      Each snowflake is uniquely generated from what you type below.
+      Use your name, a username, or any special phrase.
+    </p>
+
+    <label for="seedInput">Enter your snowflake key:</label>
+    <input id="seedInput" type="text" placeholder="e.g. Leif, @gayandmerry69, etc." />
+
+    <div class="buttons">
+      <button id="generateBtn">Generate Snowflake</button>
+      <button id="downloadBtn" disabled>Download Snowflake</button>
+    </div>
+
+    <canvas id="snowflakeCanvas" width="600" height="600"></canvas>
+
+    <p class="footer">
+      Made with care for Christmas 2025 • Captain’s Broadcast Edition
+    </p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
